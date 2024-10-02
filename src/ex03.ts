@@ -3,9 +3,9 @@
 //    Formula: Fahrenheit = (Celsius * 9/5) + 32
 //    Ensure the parameter and return type are typed correctly.
 
-function celsiusToFahrenheit(celsius:number) {
-  const Fahrenheit = (celsius * 9 / 5) + 32
-  return Fahrenheit
+function celsiusToFahrenheit(celsius:number) :number{
+  const fahrenheit = (celsius * 9 / 5) + 32
+  return fahrenheit
 }
 
 // Expected output:
